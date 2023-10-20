@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+}
+/* Defina uma cor de destaque laranja */
+.highlight-color {
+    color: #FFA500;
+    font-family: Verdana;
+    text-align: center;  
+}
+  
+  /* Estilize os botões com a cor laranja */
+  .button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Verdana;  
+}
+  
+  /* Estilize os botões hover */
+  .button:hover {
+    background-color: #FF8C00;
+    font-family: Verdana;  
+}
+  
+  /* Altere a cor de fundo do cabeçalho para laranja */
+  header {
+    background-color: #FFA500;
+    padding: 20px 0;
+    font-family: Verdana;  
+    text-align: center;
+}
+  
+  /* Estilize os links com a cor laranja */
+  a.highlight-color {
+    color: #FFA500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: Verdana;  
+}
+  
+  /* Estilize os links hover */
+  a.highlight-color:hover {
+    color: #FF8C00;
+    font-family: Verdana;  
+}
+  
+  /* Altere a cor do texto do rodapé para laranja */
+  footer {
+    color: #FFA500;
+    background-color: #333;
+    padding: 20px 0;
+    font-family: Verdana; 
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    left: -2px;
+}
+  
+  /* Estilize o contêiner principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Verdana;  
+}
+  
+  /* Adicione um sombreamento sutil aos elementos */
+  .shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  main a{
+    text-decoration:none;
+    padding: 10px;
+    background-color: #FF8C00;
+    margin-top: 20px;
+    display:block;
+    width: 10%;
+    border-radius: 5px;
+    text-align: center;
+    border-style: ridge;
+    border-color: #333;
+    color: #333;
+  }
+  
